@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de IMC</title>
+  <link rel="stylesheet" href="contador-style.css">
+</head>
+<body>
+  <h1>Calculador de IMC</h1>
+  <div class="menu"> 
+    <section>
+      <h2>
+        <label for="">Nome:</label>
+        <input type="text" id="txtNom">
+      </h2>
+      <h2>
+        <label for="">Altura:</label>
+        <input type="number" id="txtAlt" placeholder="EX: 1.87">
+      </h2>
+      <h2>
+        <label for="">Peso :</label>
+        <input type="number" id="txtPes" placeholder="EX: 90">
+      </h2>
+      <button onclick="calcula()">Calcular</button>
+      <textarea name="" id="res" cols="" rows="8"></textarea>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; Raymer Coelho</p>
+  </footer>
+
+
+  <script src="imc-script.js"></script>
+</body>
+</html>
